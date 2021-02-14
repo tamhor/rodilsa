@@ -1,0 +1,1029 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://localhost/akuntansi/dashboard# -->
+<html style="height: auto;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" type="image/png" sizes="96x96" href="http://localhost/akuntansi/assets/img/favicon.png">
+  <title>Dashboard</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <!-- Bootstrap 3.3.6 -->
+  <link rel="stylesheet" href="./Dashboard_files/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <!-- Theme style -->
+  <link rel="stylesheet" href="./Dashboard_files/font-awesome.css">
+  
+  <link rel="stylesheet" href="./Dashboard_files/import-font.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="./Dashboard_files/AdminLTE.css">
+  <!-- AdminLTE Skins. Choose a skin from the css/skins
+       folder instead of downloading all of them to reduce the load. -->
+  <link rel="stylesheet" href="./Dashboard_files/_all-skins.css">
+  <!-- iCheck -->
+  <link rel="stylesheet" href="./Dashboard_files/blue.css">
+  <!-- Date Picker -->
+  <link rel="stylesheet" href="./Dashboard_files/datepicker3.css">
+  <!-- Daterange picker -->
+  <link rel="stylesheet" href="./Dashboard_files/daterangepicker.css">
+  <!-- bootstrap wysihtml5 - text editor -->
+  <link rel="stylesheet" href="./Dashboard_files/bootstrap3-wysihtml5.min.css">
+  <!-- Datatable css -->
+  <link rel="stylesheet" href="./Dashboard_files/dataTables.bootstrap.css">
+    <!-- Select2 -->
+  <link rel="stylesheet" href="./Dashboard_files/select2.min.css">
+  <!-- Bootstrap Color Picker -->
+  <link rel="stylesheet" href="./Dashboard_files/bootstrap-colorpicker.min.css">
+  <link rel="stylesheet" href="./Dashboard_files/custom.css">
+  <link rel="stylesheet" href="./Dashboard_files/bootstrap3-wysihtml5.min.css">  
+ 
+  <!-- jQuery 2.2.3 -->
+  <script src="./Dashboard_files/jquery-2.2.3.min.js.download"></script>
+  <!-- Bootstrap 3.3.6 -->
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+<style id="__web-inspector-hide-shortcut-style__">
+.__web-inspector-hide-shortcut__, .__web-inspector-hide-shortcut__ *, .__web-inspector-hidebefore-shortcut__::before, .__web-inspector-hideafter-shortcut__::after
+{
+    visibility: hidden !important;
+}
+</style></head>
+<body class="skin-yellow sidebar-collapse" style="height: auto;">
+<div class="wrapper" style="height: auto;">
+  <style media="screen">
+	.purchase-heading
+	{
+	  background-color: #ec2711;
+	}
+	.link-settting,
+	.icon-settings
+	{
+	  color: #ec2711;
+	}
+	.btn-info,
+	.bg-aqua,
+	.callout.callout-info,
+	.alert-info,
+	.label-info,
+	.modal-info .modal-body,
+	.header_row
+	{
+	  background-color: #ec2711	}
+	.btn-info
+	{
+	  background-color: #ec2711;
+	  border-color: #000000;
+	}
+	.btn-info:hover
+	{
+	  background-color: #000000;
+	}
+	.box.box-info
+	{
+		border-top-color: #ec2711	}
+	.box
+	{
+		border-top: 3px solid #ec2711;
+	}
+	.pagination>.active>a, 
+	.pagination>.active>a:focus, 
+	.pagination>.active>a:hover, 
+	.pagination>.active>span, 
+	.pagination>.active>span:focus, 
+	.pagination>.active>span:hover,
+	.btn-info.active, .btn-info:active, .open>.dropdown-toggle.btn-info,
+	.btn-info.active.focus, .btn-info.active:focus, .btn-info.active:hover, .btn-info:active.focus, .btn-info:active:focus, .btn-info:active:hover, .open>.dropdown-toggle.btn-info.focus, .open>.dropdown-toggle.btn-info:focus, .open>.dropdown-toggle.btn-info:hover
+	{
+		background-color: #ec2711;
+    	border-color: #000000;
+	}
+
+
+</style>     <!-- Header  -->
+     
+  <link rel="stylesheet" href="./Dashboard_files/font-awesome.min.css">
+  <link rel="stylesheet" href="./Dashboard_files/sidebar-menu.css">
+
+
+<link rel="stylesheet" href="./Dashboard_files/jquery.calculator.min.js.download">
+<link rel="stylesheet" href="./Dashboard_files/core.js.download">
+
+    <header class="main-header">
+        <nav style="  background-color: #d81b60; " class="navbar navbar-default">
+
+            <div class="row header_row">
+                <div class="col-md-4 col-xs-12">
+                    <div class="sn_cname">
+                        <a href="http://localhost/akuntansi/homepage">
+                            <i class="fa fa-globe"> </i> Optik Rodilsa                        </a>
+                        <a class=" link-setting-header" href="javscript:void(0)">
+                            <i class="fa fa-clock-o" aria-hidden="true"></i> 28-10-2020 	
+                        </a>                        
+                    </div>                    
+                </div>
+                <div class="col-md-8 col-xs-12 topmenushowhide">
+
+                    <div class="header-nav">
+                        <ul class="nav navbar-nav pull-right">
+                            <li class="dropdown">
+                                <a class="btn account dropdown-toggle" data-toggle="dropdown" href="http://localhost/akuntansi/dashboard#">
+                            <img alt="" style="width:36px; height:36px;" src="./Dashboard_files/male.png" class="mini_avatar img-rounded">
+
+                            <div class="user">
+                                <span>Selamat Datang</span>
+                            </div>
+                        </a>
+                                <ul class="dropdown-menu pull-right">
+                                    <li>
+                                        <a href="http://localhost/akuntansi/profile">
+                                    <img width="18" height="18" class="img-circle" alt="User Image" src="./Dashboard_files/86ed815b3c9225ba422bcdad8cb8e3d8.png">		                  Supper Admin                               </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://localhost/akuntansi/dashboard#"><i class="fa fa-key"></i> Ubah Kata Sandi                                </a>
+                                    </li>
+                                    <li class="divider"></li>
+                                    <li>
+                                        <a href="http://localhost/akuntansi/homepage/sign_out">
+                                    <i class="fa fa-sign-out"></i> Logout                                </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                                    
+
+                        <ul class="nav navbar-nav pull-right responsivetop">                           
+                            <li class="con-tooltip bottom hidden-xs">
+                                <a class="btn tip" data-placement="bottom" href="http://localhost/akuntansi/homepage"><i class="fa fa-dashboard"></i></a>
+                                <div class="tooltip ">
+                                    <p>Dashboard</p> 
+                                </div>             
+                            </li>                            
+                           
+                            <li class="con-tooltip bottom hidden-sm">
+                                <a data-placement="bottom" href="http://localhost/akuntansi/invoice/manage">
+                             <img src="./Dashboard_files/quote.png">
+                        </a>
+                           <div class="tooltip ">
+                                    <p>Invoice Hari Ini</p>
+                                </div>
+                            </li>
+                            <li class="con-tooltip bottom hidden-xs">
+                                <a class="btn bdarkGreen tip" data-placement="bottom" href="http://localhost/akuntansi/invoice">
+                            <i class="fa fa-th-large"></i> <span class="padding05">POS</span>
+                        </a>
+                           <div class="tooltip ">
+                                    <p>POS</p>
+                                </div>
+                            </li>
+                           
+                            <li class="con-tooltip bottom hidden-xs">
+                                <a class="btn bdarkGreen tip" data-placement="bottom" href="http://localhost/akuntansi/salesreport">
+                            <i class="fa fa-hourglass-2"></i>
+                        </a>
+                           <div class="tooltip ">
+                                    <p>Profit Hari Ini</p>
+                                </div>
+                            </li>   
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- --------------------------------------------------------------->
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" id="responsiveicond" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+ <!-- Start menu ber -->
+ 
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+
+
+    </header>
+    <div class="col-md-2 row">
+
+<!------------------- Start Demo Menu ------------------>
+                       <ul class="nav in sidebar-menu" id="side-menu">  
+                                       <li class="treeview">
+            <a href="http://localhost/akuntansi/dashboard#">
+	          		<i class="fa fa-tachometer icon-settings" aria-hidden="true"> </i>
+	              	
+	               		Dashboard<i class="fa fa-angle-left pull-right"></i>
+			    </a>
+                <ul class="treeview-menu" style="display: none;">
+                                                     <li class="activee"> <a href="http://localhost/akuntansi/dashboard">
+                                  <i class="fa fa-circle-o"></i> Dashboard</a>
+                                </li>
+                                                        </ul>
+                    </li>
+   
+                              <li class="treeview  ">
+            <a href="http://localhost/akuntansi/dashboard#">
+	          		<i class="fa fa-calculator icon-settings" aria-hidden="true"> </i>
+	              	
+	               		Akuntansi<i class="fa fa-angle-left pull-right"></i>
+			    </a>
+                <ul class="treeview-menu">
+                                                     <li class=""> <a href="http://localhost/akuntansi/customers/ledger">
+                                  <i class="fa fa-circle-o"></i> Buku Besar Customer</a>
+                                </li>
+                                                                <li class=""> <a href="http://localhost/akuntansi/supplier/ledger">
+                                  <i class="fa fa-circle-o"></i> Buku Besar Supplier</a>
+                                </li>
+                                                                <li class=""> <a href="http://localhost/akuntansi/accounts">
+                                  <i class="fa fa-circle-o"></i> Bagan Akun</a>
+                                </li>
+                                                                <li class=""> <a href="http://localhost/akuntansi/statements/journal_voucher">
+                                  <i class="fa fa-circle-o"></i> Entri Jurnal</a>
+                                </li>
+                                                                <li class=""> <a href="http://localhost/akuntansi/statements/opening_balance">
+                                  <i class="fa fa-circle-o"></i> Pembukaan Saldo</a>
+                                </li>
+                                                        </ul>
+                    </li>
+   
+                              <li class="treeview  ">
+            <a href="http://localhost/akuntansi/dashboard#">
+	          		<i class="fa fa-anchor icon-settings" aria-hidden="true"> </i>
+	              	
+	               		Atribut<i class="fa fa-angle-left pull-right"></i>
+			    </a>
+                <ul class="treeview-menu">
+                                                     <li class=""> <a href="http://localhost/akuntansi/initilization">
+                                  <i class="fa fa-circle-o"></i> Merk</a>
+                                </li>
+                                                                <li class=""> <a href="http://localhost/akuntansi/initilization/brandSector">
+                                  <i class="fa fa-circle-o"></i> Sektor Merk</a>
+                                </li>
+                                                                <li class=""> <a href="http://localhost/akuntansi/initilization/region">
+                                  <i class="fa fa-circle-o"></i> Region</a>
+                                </li>
+                                                                <li class=""> <a href="http://localhost/akuntansi/initilization/town">
+                                  <i class="fa fa-circle-o"></i> Kota</a>
+                                </li>
+                                                                <li class=""> <a href="http://localhost/akuntansi/initilization/units">
+                                  <i class="fa fa-circle-o"></i> Unit</a>
+                                </li>
+                                                                <li class=""> <a href="http://localhost/akuntansi/initilization/stores">
+                                  <i class="fa fa-circle-o"></i> Toko</a>
+                                </li>
+                                                        </ul>
+                    </li>
+   
+                              <li class="treeview  ">
+            <a href="http://localhost/akuntansi/dashboard#">
+	          		<i class="fa fa-bank icon-settings" aria-hidden="true"> </i>
+	              	
+	               		Bank<i class="fa fa-angle-left pull-right"></i>
+			    </a>
+                <ul class="treeview-menu">
+                                                     <li class=""> <a href="http://localhost/akuntansi/bank/written_cheque">
+                                  <i class="fa fa-circle-o"></i> Cek</a>
+                                </li>
+                                                                <li class=""> <a href="http://localhost/akuntansi/bank">
+                                  <i class="fa fa-circle-o"></i> Daftar Bank</a>
+                                </li>
+                                                                <li class=""> <a href="http://localhost/akuntansi/bank/deposit_list">
+                                  <i class="fa fa-circle-o"></i> Deposito Bank</a>
+                                </li>
+                                                                <li class=""> <a href="http://localhost/akuntansi/bank/bank_book">
+                                  <i class="fa fa-circle-o"></i> Buku Bank</a>
+                                </li>
+                                                        </ul>
+                    </li>
+   
+                              <li class="treeview  ">
+            <a href="http://localhost/akuntansi/dashboard#">
+	          		<i class="fa fa-user icon-settings" aria-hidden="true"> </i>
+	              	
+	               		Customer<i class="fa fa-angle-left pull-right"></i>
+			    </a>
+                <ul class="treeview-menu">
+                                                     <li class=""> <a href="http://localhost/akuntansi/customers">
+                                  <i class="fa fa-circle-o"></i> Customer</a>
+                                </li>
+                                                                <li class=""> <a href="http://localhost/akuntansi/customers/payment_list">
+                                  <i class="fa fa-circle-o"></i> Pembayaran Customer</a>
+                                </li>
+                                                        </ul>
+                    </li>
+   
+                              <li class="treeview  ">
+            <a href="http://localhost/akuntansi/dashboard#">
+	          		<i class="fa fa-paper-plane icon-settings" aria-hidden="true"> </i>
+	              	
+	               		Expense<i class="fa fa-angle-left pull-right"></i>
+			    </a>
+                <ul class="treeview-menu">
+                                                     <li class=""> <a href="http://localhost/akuntansi/Expense">
+                                  <i class="fa fa-circle-o"></i> Expense</a>
+                                </li>
+                                                        </ul>
+                    </li>
+   
+                              <li class="treeview  ">
+            <a href="http://localhost/akuntansi/dashboard#">
+	          		<i class="fa fa-users icon-settings" aria-hidden="true"> </i>
+	              	
+	               		Hak Akses<i class="fa fa-angle-left pull-right"></i>
+			    </a>
+                <ul class="treeview-menu">
+                                                     <li class=""> <a href="http://localhost/akuntansi/multiple_roles">
+                                  <i class="fa fa-circle-o"></i> Atur Hak Akses</a>
+                                </li>
+                                                        </ul>
+                    </li>
+   
+                              <li class="treeview  ">
+            <a href="http://localhost/akuntansi/dashboard#">
+	          		<i class="fa fa-barcode icon-settings" aria-hidden="true"> </i>
+	              	
+	               		Inventori<i class="fa fa-angle-left pull-right"></i>
+			    </a>
+                <ul class="treeview-menu">
+                                                     <li class=""> <a href="http://localhost/akuntansi/product">
+                                  <i class="fa fa-circle-o"></i> Produk</a>
+                                </li>
+                                                                <li class=""> <a href="http://localhost/akuntansi/category">
+                                  <i class="fa fa-circle-o"></i> Kategori</a>
+                                </li>
+                                                                <li class=""> <a href="http://localhost/akuntansi/product/generate_barcode">
+                                  <i class="fa fa-circle-o"></i> Barcode Generator</a>
+                               <!--  </li>
+                                                                <li class=""> <a href="http://localhost/akuntansi/todolist">
+                                  <i class="fa fa-circle-o"></i> Permintaan Item</a>
+                                </li> -->
+                                                           <!--      <li class=""> <a href="http://localhost/akuntansi/product/pending_stock">
+                                 <i class="fa fa-circle-o"></i> Pending stok</a>
+                                </li> -->
+                                                                <li class=""> <a href="http://localhost/akuntansi/stockAlertReport">
+                                  <i class="fa fa-circle-o"></i> Peringatan Stok</a>
+                                </li>
+                                                               <!--  <li class=""> <a href="http://localhost/akuntansi/product/expired_list">
+                                  <i class="fa fa-circle-o"></i> Produk Kadaluarsa</a>
+                                </li> -->
+                                                                <li class=""> <a href="http://localhost/akuntansi/product/productStock">
+                                  <i class="fa fa-circle-o"></i> Stok</a>
+                                <!-- </li>
+                                                                <li class=""> <a href="http://localhost/akuntansi/product/expired_stock">
+                                  <i class="fa fa-circle-o"></i> Stok Kadaluarsa</a> -->
+                                </li>
+                                                        </ul>
+                    </li>
+   
+                              <li class="treeview  ">
+            <a href="http://localhost/akuntansi/dashboard#">
+	          		<i class="fa fa-balance-scale icon-settings" aria-hidden="true"> </i>
+	              	
+	               		Laporan<i class="fa fa-angle-left pull-right"></i>
+			    </a>
+                <ul class="treeview-menu">
+                                                     <li class=""> <a href="http://localhost/akuntansi/salesreport">
+                                  <i class="fa fa-circle-o"></i> Laporan Penjualan</a>
+                                </li>
+                                                                <li class=""> <a href="http://localhost/akuntansi/salesreport/returnitemreport">
+                                  <i class="fa fa-circle-o"></i> Laporan Retur</a>
+                                </li>
+                                                        </ul>
+                    </li>
+   
+                              <li class="treeview  ">
+            <a href="http://localhost/akuntansi/dashboard#">
+	          		<i class="fa fa-shopping-bag icon-settings" aria-hidden="true"> </i>
+	              	
+	               		Opsi Umum<i class="fa fa-angle-left pull-right"></i>
+			    </a>
+                <ul class="treeview-menu">
+                                                     <li class=""> <a href="http://localhost/akuntansi/users">
+                                  <i class="fa fa-circle-o"></i> Pengguna</a>
+                                </li>
+                                                                <li class=""> <a href="http://localhost/akuntansi/backup">
+                                  <i class="fa fa-circle-o"></i> Backup Database</a>
+                                </li>
+                                                                <li class=""> <a href="http://localhost/akuntansi/backup/upload_restore">
+                                  <i class="fa fa-circle-o"></i> Restore Database</a>
+                                </li>
+                                                                <li class=""> <a href="http://localhost/akuntansi/Printer_settings">
+                                  <i class="fa fa-circle-o"></i> Pengaturan Printer</a>
+                                </li>
+                                                                <li class=""> <a href="http://localhost/akuntansi/backup/format">
+                                  <i class="fa fa-circle-o"></i> Format Data</a>
+                                </li>
+                                                        </ul>
+                    </li>
+   
+                              <li class="treeview  ">
+            <a href="http://localhost/akuntansi/dashboard#">
+	          		<i class="fa fa-briefcase icon-settings" aria-hidden="true"> </i>
+	              	
+	               		Pembelian<i class="fa fa-angle-left pull-right"></i>
+			    </a>
+                <ul class="treeview-menu">
+                                                     <li class=""> <a href="http://localhost/akuntansi/purchase">
+                                  <i class="fa fa-circle-o"></i> Daftar Pembelian</a>
+                                </li>
+                                                                <li class=""> <a href="http://localhost/akuntansi/purchase/return_list">
+                                  <i class="fa fa-circle-o"></i> Retur Pembelian</a>
+                                </li>
+                                                        </ul>
+                    </li>
+   
+                              <li class="treeview  ">
+            <a href="http://localhost/akuntansi/dashboard#">
+	          		<i class="fa fa-cog icon-settings" aria-hidden="true"> </i>
+	              	
+	               		Pengaturan<i class="fa fa-angle-left pull-right"></i>
+			    </a>
+                <ul class="treeview-menu">
+                                                     <li class=""> <a href="http://localhost/akuntansi/layout">
+                                  <i class="fa fa-circle-o"></i> Tampilan &amp; Sistem</a>
+                                </li>
+                                                        </ul>
+                    </li>
+   
+                              <li class="treeview  ">
+            <a href="http://localhost/akuntansi/dashboard#">
+	          		<i class="fa fa-clipboard icon-settings" aria-hidden="true"> </i>
+	              	
+	               		POS<i class="fa fa-angle-left pull-right"></i>
+			    </a>
+                <ul class="treeview-menu">
+                                                     <li class=""> <a href="http://localhost/akuntansi/invoice/manage">
+                                  <i class="fa fa-circle-o"></i> Daftar Invoice</a>
+                                </li>
+                                                                <li class=""> <a href="http://localhost/akuntansi/invoice">
+                                  <i class="fa fa-circle-o"></i> Buat Invoice</a>
+                                </li>
+                                                                <li class=""> <a href="http://localhost/akuntansi/return_items">
+                                  <i class="fa fa-circle-o"></i> Retur Item</a>
+                                </li>
+                                                        </ul>
+                    </li>
+   
+                              <li class="treeview  ">
+            <a href="http://localhost/akuntansi/dashboard#">
+	          		<i class="fa fa-user icon-settings" aria-hidden="true"> </i>
+	              	
+	               		Profil<i class="fa fa-angle-left pull-right"></i>
+			    </a>
+                <ul class="treeview-menu">
+                                                     <li class=""> <a href="http://localhost/akuntansi/profile">
+                                  <i class="fa fa-circle-o"></i> Personal</a>
+                                </li>
+                                                        </ul>
+                    </li>
+   
+                              <li class="treeview  ">
+            <a href="http://localhost/akuntansi/dashboard#">
+	          		<i class="fa fa-line-chart icon-settings" aria-hidden="true"> </i>
+	              	
+	               		Statement<i class="fa fa-angle-left pull-right"></i>
+			    </a>
+                <ul class="treeview-menu">
+                                                     <li class=""> <a href="http://localhost/akuntansi/statements">
+                                  <i class="fa fa-circle-o"></i> Jurnal Umum</a>
+                                </li>
+                                                                <li class=""> <a href="http://localhost/akuntansi/statements/leadgerAccounst">
+                                  <i class="fa fa-circle-o"></i> Buku Besar</a>
+                                </li>
+                                                                <li class=""> <a href="http://localhost/akuntansi/statements/trail_balance">
+                                  <i class="fa fa-circle-o"></i> Neraca Saldo</a>
+                                </li>
+                                                                <li class=""> <a href="http://localhost/akuntansi/statements/income_statement">
+                                  <i class="fa fa-circle-o"></i> Laporan Laba Rugi</a>
+                                </li>
+                                                                <li class=""> <a href="http://localhost/akuntansi/statements/balancesheet">
+                                  <i class="fa fa-circle-o"></i> Neraca Keuangan</a>
+                                </li>
+                                                        </ul>
+                    </li>
+   
+                              <li class="treeview  ">
+            <a href="http://localhost/akuntansi/dashboard#">
+	          		<i class="fa fa-truck icon-settings" aria-hidden="true"> </i>
+	              	
+	               		Supplier<i class="fa fa-angle-left pull-right"></i>
+			    </a>
+                <ul class="treeview-menu">
+                                                     <li class=""> <a href="http://localhost/akuntansi/supplier">
+                                  <i class="fa fa-circle-o"></i> Daftar Supplier</a>
+                                </li>
+                                                                <li class=""> <a href="http://localhost/akuntansi/supplier/payment_list">
+                                  <i class="fa fa-circle-o"></i> Pembayaran Supplier</a>
+                                </li>
+                                                        </ul>
+                    </li>
+   
+                             <!--  <li class="treeview active __web-inspector-hide-shortcut__">
+            <a href="http://localhost/akuntansi/dashboard#" class="__web-inspector-hide-shortcut__">
+	          		<i class="fa fa-flask icon-settings" aria-hidden="true"> </i>
+	              	
+	               		Supply Chain<i class="fa fa-angle-left pull-right"></i>
+			    </a>
+                <ul class="treeview-menu menu-open" style="display: block;">
+                                                     <li class=""> <a href="http://localhost/akuntansi/supply">
+                                  <i class="fa fa-circle-o"></i> Daftar Pengiriman</a>
+                                </li>
+                                                                <li class=""> <a href="http://localhost/akuntansi/supply/drivers">
+                                  <i class="fa fa-circle-o"></i> Sopir</a>
+                                </li>
+                                                                <li class=""> <a href="http://localhost/akuntansi/supply/vehicle">
+                                  <i class="fa fa-circle-o"></i> Kendaraan</a>
+                                </li>
+                                                        </ul>
+                    </li> -->
+   
+                                            <!-- </ul> -->
+                        <!------------------- End Demo Menu ------------------>
+
+                <!-- /.navbar-collapse -->
+    <!-- End menu ber -->
+            </div>
+    <div class="col-md-10">
+
+<script>
+$(function() {
+  var menuVisible = false;
+  $('#responsiveicond').click(function() {
+    if (menuVisible) {
+      $('#side-menu').css({'display':'none'});
+      menuVisible = false;
+      return;
+    }
+    $('#side-menu').css({'display':'block'});
+    menuVisible = true;
+  });
+});
+</script>
+
+<style>
+@media only screen and (max-width: 870px) {
+  .responsivetop {
+    display:none;
+  }
+  .topmenushowhide {
+    display:none;
+  }
+  
+}
+
+@media only screen and (max-width: 770px) {
+  #side-menu {
+    display:none;
+  }
+}
+
+  @media only screen and (min-width: 772px) {
+  #side-menu {
+    display:block !important;
+  }
+  
+}
+.activee{background:#0a0909;}
+.treeview-menu .activee a{ color:white !important;}
+
+</style>  <!-- Header ends-->
+    <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper" style="min-height: 445px;">
+    <!-- pages navigates here -->
+       <section class="content">
+    <div class="row">
+        <div class="col-lg-3 col-xs-6">
+            <div class="small-box bg-yellow">
+                <div class="inner">
+                    <h3><label class="label ">5000</label></h3>
+
+                    <h4 class="paragraph">Saldo Kas ( IDR )</h4>
+                </div>
+                <div class="icon">
+                    <i class="fa fa-money " aria-hidden="true"></i>
+                </div>
+                <a href="http://localhost/akuntansi/statements/leadgerAccounst" class="small-box-footer">Lihat <i class="fa fa-hand-o-right"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-3 col-xs-6">
+            <div class="small-box bg-red">
+                <div class="inner">
+                                        <h3><label class="label">0</label></h3>
+
+                    <h4 class="paragraph">Hutang Usaha (AP) ( IDR )</h4>
+                </div>
+                <div class="icon">
+                    <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                </div>
+                 <a href="http://localhost/akuntansi/statements/leadgerAccounst" class="small-box-footer">Lihat <i class="fa fa-hand-o-right"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-3 col-xs-6">
+            <div class="small-box bg-green ">
+                <div class="inner">
+                    <h3><label class="label">0</label></h3>
+
+                    <h4 class="paragraph">Piutang Usaha (AR) ( IDR )</h4>
+                </div>
+                <div class="icon">
+                    <i class="fa fa-lemon-o"></i>
+                </div>
+                <a href="http://localhost/akuntansi/statements/leadgerAccounst" class="small-box-footer">Lihat <i class="fa fa-hand-o-right"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-3 col-xs-6">
+            <div class="small-box custom-bg-color-second">
+                <div class="inner">
+                    <h3><label class="label">0</label></h3>
+
+                    <h4 class="paragraph">Stok Produk</h4>
+                </div>
+                <div class="icon">
+                    <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                </div>
+                <a href="http://localhost/akuntansi/product/productStock" class="small-box-footer">Lihat <i class="fa fa-hand-o-right"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+                <div class="box box-success">
+                <div class="info-box">
+        <!-- Apply any bg-* class to to the icon to color it -->
+        <span class="info-box-icon bg-red"><i class="fa fa-book"></i></span>
+        <div class="info-box-content">
+          <span class="info-box-text"><h4>Bagan Akun</h4></span>
+          <span class="info-box-number"><a href="http://localhost/akuntansi/accounts">Lihat</a></span>
+        </div><!-- /.info-box-content -->
+      </div><!-- /.info-box -->
+
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="box box-success">
+                <div class="info-box">
+        <!-- Apply any bg-* class to to the icon to color it -->
+        <span class="info-box-icon bg-blue"><i class="fa fa-list-alt"></i></span>
+        <div class="info-box-content">
+          <span class="info-box-text"><h4>Jurnal Umum</h4></span>
+          <span class="info-box-number"><a href="http://localhost/akuntansi/statements">Lihat</a></span>
+        </div><!-- /.info-box-content -->
+      </div><!-- /.info-box -->
+
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="box box-success">
+                <div class="info-box">
+        <!-- Apply any bg-* class to to the icon to color it -->
+        <span class="info-box-icon bg-yellow"><i class="fa fa-calendar-plus-o"></i></span>
+        <div class="info-box-content">
+          <span class="info-box-text"><h4>Buku Besar</h4></span>
+          <span class="info-box-number"><a href="http://localhost/akuntansi/statements/leadgerAccounst">Lihat</a></span>
+        </div><!-- /.info-box-content -->
+      </div><!-- /.info-box -->
+
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="box box-success">
+                <div class="info-box">
+        <!-- Apply any bg-* class to to the icon to color it -->
+        <span class="info-box-icon bg-green"><i class="fa fa-money"></i></span>
+        <div class="info-box-content">
+          <span class="info-box-text"><h4>Neraca</h4></span>
+          <span class="info-box-number"><a href="http://localhost/akuntansi/statements/balancesheet">Lihat</a></span>
+        </div><!-- /.info-box-content -->
+      </div><!-- /.info-box -->
+
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-3 col-xs-6">
+            <div class="small-box custom-bg-color">
+                <div class="inner">
+                    <h3><label class="label">0</label></h3>
+                    <h4 class="paragraph">Penjualan Hari Ini</h4>
+                </div>
+                <div class="icon">
+                    <i class="fa fa-bar-chart "></i>
+                </div>
+                <a href="http://localhost/akuntansi/salesreport" class="small-box-footer"><span class="dashboard_text"> Tot 0 | Mo 0 | Pr 0</span></a>
+            </div>
+        </div>
+        <div class="col-lg-3 col-xs-6">
+            <div class="small-box custom-bg-color">
+                <div class="inner">
+                    <h3><label class="label">0</label></h3>
+
+                    <h4 class="paragraph">Penjualan Bulan Ini</h4>
+                </div>
+                <div class="icon">
+                    <i class="fa fa-area-chart "></i>
+                </div>
+                <a href="http://localhost/akuntansi/salesreport" class="small-box-footer"> <span class="dashboard_text">  Tot 0 | <span class="expense_das">Mod 0</span>  | Pr 0  </span></a>
+            </div>
+        </div>
+        <div class="col-lg-3 col-xs-6">
+            <div class="small-box custom-bg-color-second">
+                <div class="inner">
+                    <h3><label class="label">0</label></h3>
+                    <h4 class="paragraph">Pembelian Bulan Ini ( IDR )</h4>
+                </div>
+                <div class="icon">
+                    <i class="fa fa-cubes"></i>
+                </div>
+               <a href="http://localhost/akuntansi/purchase" class="small-box-footer">Lihat <i class="fa fa-hand-o-right"></i></a>
+            </div>
+        </div>       
+        <div class="col-lg-3 col-xs-6">
+            <div class="small-box custom-bg-color-second">
+                <div class="inner">
+                    <h3><label class="label">0</label></h3>
+                    <h4 class="paragraph">Pengeluaran Bulan Ini ( IDR )</h4>
+
+                </div>
+                <div class="icon">
+                   <i class="fa fa-rocket" aria-hidden="true"></i>
+                </div>
+               <a href="http://localhost/akuntansi/expense" class="small-box-footer">Lihat <i class="fa fa-hand-o-right"></i></a>
+            </div>
+        </div>
+    </div>    
+</section>
+    <div class="row">
+        <section class="col-lg-7 connectedSortable">
+            <div class="box box-primary">
+                <div class="box-header with-border">
+                    <h3 class="box-title"><i class="fa fa-money" aria-hidden="true"></i> Total Revenue &amp; Modal Tahun Ini ( IDR )</h3>
+                    <div class="box-tools pull-right">
+                        <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                        </button>
+                        <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                    </div>
+                </div>
+                <div class="box-body">
+                    <div class="chart">
+                        <canvas id="areaChart" style="height: 284px; width: 659px;" height="426" width="988"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="col-lg-5 connectedSortable">
+            <div class="box box-primary ">
+                <div class="box-header with-border">
+                    <h3 class="box-title">  <i class="ion ion-stats-bars "></i> Profit Penjualan Tahun Ini ( IDR ) </h3>
+                    <div class="box-tools pull-right">
+                        <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                        </button>
+                        <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                    </div>
+                </div>
+                <div class="box-body">
+                    <div class="chart">
+                        <canvas id="lineChart" style="height: 411px; width: 659px;" height="616" width="988"></canvas>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+
+</div>
+<style>
+.small-box > .inner {
+    padding: 20px;
+}
+@media (min-width: 992px){
+.col-md-10 {
+    width: 85.333333%;
+}
+}
+</style>
+ <script type="text/javascript">
+ $(function() {
+
+            /* ChartJS
+             * -------
+             * Here we will create a few charts using ChartJS
+             */
+
+            //--------------
+            //- AREA CHART -
+            //--------------
+
+            // Get context with jQuery - using jQuery's .get() method.
+            var areaChartCanvas = $("#areaChart").get(0).getContext("2d");
+
+            // This will get the first returned node in the jQuery collection.
+            var areaChart = new Chart(areaChartCanvas);
+
+            var areaChartOptions = {
+                //Boolean - If we should show the scale at all
+                showScale: true,
+                //Boolean - Whether grid lines are shown across the chart
+                scaleShowGridLines: false,
+                //String - Colour of the grid lines
+                scaleGridLineColor: "rgba(0,0,0,.05)",
+                //Number - Width of the grid lines
+                scaleGridLineWidth: 1,
+                //Boolean - Whether to show horizontal lines (except X axis)
+                scaleShowHorizontalLines: true,
+                //Boolean - Whether to show vertical lines (except Y axis)
+                scaleShowVerticalLines: true,
+                //Boolean - Whether the line is curved between points
+                bezierCurve: true,
+                //Number - Tension of the bezier curve between points
+                bezierCurveTension: 0.3,
+                //Boolean - Whether to show a dot for each point
+                pointDot: false,
+                //Number - Radius of each point dot in pixels
+                pointDotRadius: 4,
+                //Number - Pixel width of point dot stroke
+                pointDotStrokeWidth: 1,
+                //Number - amount extra to add to the radius to cater for hit detection outside the drawn point
+                pointHitDetectionRadius: 20,
+                //Boolean - Whether to show a stroke for datasets
+                datasetStroke: true,
+                //Number - Pixel width of dataset stroke
+                datasetStrokeWidth: 2,
+                //Boolean - Whether to fill the dataset with a color
+                datasetFill: true,
+                //String - A legend template
+                legendTemplate: "<ul class=\"<%=name.toLowerCase()%>-legend\"><% for (var i=0; i<datasets.length; i++){%><li><span style=\"background-color:<%=datasets[i].lineColor%>\"></span><%if(datasets[i].label){%><%=datasets[i].label%><%}%></li><%}%></ul>",
+                //Boolean - whether to maintain the starting aspect ratio or not when responsive, if set to false, will take up entire container
+                maintainAspectRatio: true,
+                //Boolean - whether to make the chart responsive to window resizing
+                responsive: true
+            };
+
+            var areaChartDataSales = {
+                labels: ["Jan", "Feb", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "Sep", "Okt", "Nov", "Des"],
+                datasets: [{
+                        label: "Pendapatan Produk Bulan Ini",
+                        fillColor: "rgba(210, 214, 222, 1)",
+                        strokeColor: "rgba(210, 214, 222, 1)",
+                        pointColor: "rgba(210, 214, 222, 1)",
+                        pointStrokeColor: "#c1c7d1",
+                        pointHighlightFill: "#fff",
+                        pointHighlightStroke: "rgba(220,220,220,1)",
+                        data: [0,0,0,0,0,0,0,0,0,0,0,0]                    }, {
+                        label: "Beban Produk Bulan Ini",
+                        fillColor: "rgba(60,141,188,0.9)",
+                        strokeColor: "rgba(60,141,188,0.8)",
+                        pointColor: "#3b8bba",
+                        pointStrokeColor: "rgba(60,141,188,1)",
+                        pointHighlightFill: "#fff",
+                        pointHighlightStroke: "rgba(60,141,188,1)",
+                        data: [0,0,0,0,0,0,0,0,0,0,0,0]                    }
+
+                ]
+            };
+
+            var lineChartDataProfit = {
+                labels: ["Jan", "Feb", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "Sep", "Okt", "Nov", "Des"],
+                datasets: [{
+                    label: "Profit Bulan Ini",
+                    fillColor: "rgba(210, 214, 222, 1)",
+                    strokeColor: "rgba(210, 214, 222, 1)",
+                    pointColor: "rgba(210, 214, 222, 1)",
+                    pointStrokeColor: "#c1c7d1",
+                    pointHighlightFill: "#fff",
+                    pointHighlightStroke: "rgba(220,220,220,1)",
+                    data: [0,0,0,0,0,0,0,0,0,0,0,0]                }]
+            };
+
+            //Create the area chart sales
+            areaChart.Line(areaChartDataSales, areaChartOptions);
+
+            //-------------
+            //- LINE CHART -
+            //--------------
+            var lineChartCanvas = $("#lineChart").get(0).getContext("2d");
+
+            var lineChart = new Chart(lineChartCanvas);
+
+            var lineChartOptions = areaChartOptions;
+
+            lineChartOptions.datasetFill = false;
+
+            lineChart.Line(lineChartDataProfit, lineChartOptions);
+
+        });
+</script>    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+    <!-- Footer  -->
+       
+	<div class="row">
+  		<div class="col-md-12">
+		  <footer class="main-footer  text-center">
+		    Copyright ©2020 <a target="blank" href="http://rumahit.id/"> Designed &amp; development by Optik Rodilsa</a> 
+		  </footer> 
+  		</div>
+  </div>
+</div>
+<!-- Added New JS -->
+<!-- Metis Menu Plugin JavaScript -->
+
+<script src="./Dashboard_files/sidebar-menu.js.download"></script>
+<script>
+	$.sidebarMenu($('.sidebar-menu'))
+</script>  <!-- Footer Ends -->
+  </div>
+<!-- ./wrapper -->
+<script src="./Dashboard_files/bootstrap.min.js.download"></script>
+<!-- Bootstrap Gowl -->
+<script src="./Dashboard_files/jquery.bootstrap-growl.js.download"></script>
+<!-- DataTables -->
+<script src="./Dashboard_files/jquery.dataTables.min.js.download"></script>
+<script src="./Dashboard_files/dataTables.bootstrap.min.js.download"></script>
+<!-- SlimScroll -->
+<script src="./Dashboard_files/jquery.slimscroll.min.js.download"></script>
+<!-- FastClick -->
+<script src="./Dashboard_files/fastclick.js.download"></script>
+<!-- AdminLTE App -->
+<script src="./Dashboard_files/app.min.js.download"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="./Dashboard_files/demo.js.download"></script>
+<!-- bootstrap datepicker -->
+<script src="./Dashboard_files/bootstrap-datepicker.js.download"></script>
+<!-- Select2 -->
+<script src="./Dashboard_files/select2.full.min.js.download"></script>
+<script src="./Dashboard_files/jquery.validate.js.download"></script>
+<!-- bootstrap color picker -->
+<script src="./Dashboard_files/bootstrap-colorpicker.min.js.download"></script>
+<!-- Form Validation -->
+<script src="./Dashboard_files/custom.js.download"></script>
+<!-- ChartJS 1.0.1 -->
+<script src="./Dashboard_files/Chart.min.js.download"></script>
+<script src="./Dashboard_files/bootstrap3-wysihtml5.all.min.js.download"></script>
+<!-- Page Script -->
+<script>
+   //Colorpicker
+    $(".my-colorpicker1").colorpicker();
+    //color picker with addon
+    $(".my-colorpicker2").colorpicker();
+     
+
+  $(function () {
+    //Add text editor
+    $("#compose-textarea").wysihtml5();
+  });
+</script>
+<!-- page script -->
+<script>
+  $(function () {
+    $("#example1").DataTable();
+    $("#example3").DataTable();
+    $('#example2').DataTable({
+      "paging": true,
+      "lengthChange": false,
+      "searching": false,
+      "ordering": true,
+      "info": true,
+      "autoWidth": false
+    });
+  });
+
+  $(function () 
+  {
+    //Initialize Select2 Elements
+    $(".select2").select2();
+
+
+  });
+
+   function alertFunc(status,message){
+      $.bootstrapGrowl(message, {
+      ele: 'body', // which element to append to
+      type: status, // (NULL, 'info', 'error', 'success')
+      offset: {from: 'top', amount: 10}, // 'top', or 'bottom'
+      align: 'right', // ('left', 'right', or 'center')
+      width: 300, // (integer, or 'auto')
+      delay: 3000,
+      allow_dismiss: true,
+      stackup_spacing: 10 // spacing between consecutively stacked growls.
+    });
+  };
+
+  $(document).ready(function() {
+    $('#example5').DataTable( {
+        "order": [[ 1, "asc" ]]
+    } );
+} );
+  </script>
+
+
+
+</body></html>
